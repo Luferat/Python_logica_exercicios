@@ -12,10 +12,12 @@ Utilize `if...elif...else` para classificar:
 | Menor que 5 | Reprovado   |
 '''
 
-nota = 6.8
+# Crie uma variável chamada nota.
+nota = 9.3
 
 print("\n\n")
 
+# Utilize `if...elif...else` para classificar:
 if nota >= 9:
     print("Excelente")
 elif nota >= 7:

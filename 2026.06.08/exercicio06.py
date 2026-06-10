@@ -10,3 +10,22 @@ Utilize uma estrutura `if` para verificar se existe quantidade suficiente no est
  - Se houver, exiba: "Pedido aprovado."
  - Caso contrário: "Estoque insuficiente."
 '''
+
+# Crie as variáveis:
+estoque = 15
+quantidade_solicitada = 10
+
+# Utilize uma estrutura `if` para verificar se existe quantidade suficiente no estoque.
+if quantidade_solicitada <= estoque:
+    print("Pedido aprovado.")
+    estoque = estoque - quantidade_solicitada
+else:
+    print("Estoque insuficiente.")
+
+# experimento
+quantidade_solicitada = 8
+
+if quantidade_solicitada <= estoque:
+    print("Pedido aprovado.")
+else:
+    print("Estoque insuficiente.")
