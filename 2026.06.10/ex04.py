@@ -11,3 +11,22 @@ Mostre os códigos para os seguintes passos:
 
 Referências: https://www.w3schools.com/python/python_lists.asp
 '''
+
+# Crie uma lista chamada "colors"
+colors = ["vermelho", "verde", "azul"]
+
+# Imprima o primeiro item da lista.
+print(colors[0])
+
+# Mude o segundo item para "amarelo".
+colors[1] = "amarelo"
+
+# Adicione "roxo" ao final da lista usando `append()`.
+colors.append("roxo")
+
+# Remova "vermelho" da lista usando `remove()`.
+colors.remove("vermelho")
+
+# Imprima a lista.
+print(colors)
+        

@@ -10,3 +10,20 @@ Mostre os códigos para os seguintes passos:
 
 Referências: https://www.w3schools.com/python/python_lists.asp
 '''
+
+# Crie uma lista chamada "frutas"
+frutas = ["maçã", "banana", "laranja"]
+
+# Imprima a lista.
+print(frutas)
+
+# Adicione "uva" à lista usando `append()`.
+frutas.append("uva")
+
+# Remova o "banana" da lista usando `remove()`.
+frutas.remove("banana")
+
+# Imprima o número de itens usando `len()`.
+print(len(frutas))
+
+print(frutas)
