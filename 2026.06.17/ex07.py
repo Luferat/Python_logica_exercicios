@@ -16,3 +16,17 @@ Desafio extra
 2 - João
 3 - Pedro
 '''
+
+names = ["Maria", "João", "Pedro", "Joca", "Clésio"]
+
+print("\nNomes:\n")
+
+for name in names:
+    print(f'Aluno: {name}')
+
+print("\nNúmeros e nomes:\n")
+
+cont = 1
+for name in names:
+    print(f'{cont} - {name}')
+    cont += 1
