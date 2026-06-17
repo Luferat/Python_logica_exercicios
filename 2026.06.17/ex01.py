@@ -15,3 +15,10 @@ Desafio extra
 
  - Exiba também quantos anos faltam para a pessoa completar 100 anos.
 '''
+
+name = "Joca da Silva"
+age = 38
+city = "Curva do Vento"
+
+print("\n")
+print(f"Meu nome é {name}, tenho {age} anos e moro em {city}.")
