@@ -7,10 +7,12 @@ add(a, b)
 subtract(a, b)
 multiply(a, b)
 divide(a, b)
-Cada função deve retornar o resultado da operação.
 
-Exemplo:
+ - Cada função deve retornar o resultado da operação. Exemplo:
 
 print(add(10, 5))
-Desafio extra Trate divisão por zero.
+
+Desafio extra
+
+ - Trate divisão por zero.
 '''

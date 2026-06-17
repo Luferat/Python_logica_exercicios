@@ -20,6 +20,12 @@ products = [
 Mouse - R$ 50
 Keyboard - R$ 120
 
+Dica:
+
+ - Use o método `dict.items()` para iterar o dicionário
+
+
 Desafio extra
+
  - Calcule o valor total de todos os produtos.
 '''

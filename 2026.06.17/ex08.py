@@ -10,5 +10,6 @@ Digite uma palavra: computador
 Quantidade de vogais: 4
 
 Dica
+
  - Percorra cada letra usando um loop.
 '''
