@@ -13,3 +13,15 @@ Dica
 
  - Percorra cada letra usando um loop.
 '''
+
+print("\n")
+
+cont = 0
+word = input("Digite a palavra: ")
+vogais = "aeiou"
+
+for letra in word:
+    if letra.lower() in vogais:
+        cont += 1
+
+print(f"Total de {cont} vogais.")
