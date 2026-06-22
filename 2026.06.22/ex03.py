@@ -42,4 +42,4 @@ print("Soma: ", calc.add(10, 5))
 print("Subtração: ", calc.subtract(10, 5))
 print("Multiplicação: ", calc.multiply(10, 5))
 print("Divisão: ", calc.divide(10, 5))
-print("Divisão: ", calc.divide(5, 0))
+print("Divisão: ", calc.divide(5, 0)) # Erro tratado!
